@@ -62,7 +62,7 @@ signupBtn.addEventListener("click", function () {
         localStorage.setItem("users", JSON.stringify(users));
         clearForm();
         errorAlert.innerHTML = "Signup is Successful !";
-        errorAlert.classList.replace("text-danger", "text-success");
+        errorAlert.classList.replace("text-danger", "text-warning");
       }
     }
   }
